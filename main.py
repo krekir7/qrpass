@@ -11,14 +11,14 @@ URL = "https://edu.donstu.ru/api/UserInfo/PassGeneration"
 
 HEADERS = {
     "accept": "*/*",
-    "authorization": "Bearer ВАШ_BEARER_ТОКЕН",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoia3Jla2lyMjAxOUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zdXJuYW1lIjoi0JrRgNC10LzQtdGAINCaLtCTLiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2hhc2giOiIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zaWQiOiItMjg5MzgwIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IjIiLCJ2ZXJpZlN0cmluZyI6IiIsIm5iZiI6MTc1NzE0MzEzNSwiZXhwIjoxNzU3NzQ3OTM1LCJpc3MiOiJkc3R1IiwiYXVkIjoiTU1JU0xhYiJ9.Bz2DKrJRHrsAYlMoMNiCdiUhAAUp-WbhkzQ6kfWQWTw",
     "user-agent": "Mozilla/5.0",
     "referer": "https://edu.donstu.ru/WebApp/"
 }
 
 COOKIES = {
-    "ASP.NET_SessionId": "ВАШ_SESSIONID",
-    "authToken": "ВАШ_AUTH_TOKEN"
+    "ASP.NET_SessionId": "5hx0cv2hvdod2phdfhp255wk",
+    "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoia3Jla2lyMjAxOUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zdXJuYW1lIjoi0JrRgNC10LzQtdGAINCaLtCTLiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2hhc2giOiIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zaWQiOiItMjg5MzgwIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IjIiLCJ2ZXJpZlN0cmluZyI6IiIsIm5iZiI6MTc1NzE0MzEzNSwiZXhwIjoxNzU3NzQ3OTM1LCJpc3MiOiJkc3R1IiwiYXVkIjoiTU1JU0xhYiJ9.Bz2DKrJRHrsAYlMoMNiCdiUhAAUp-WbhkzQ6kfWQWTw"
 }
 
 
