@@ -36,16 +36,16 @@ jobs:
         yes | sdkmanager --licenses
         yes | sdkmanager "platform-tools" "build-tools;34.0.0" "platforms;android-34"
 
-    - name: Force SDK version for Buildozer
+    - name: Force Buildozer to use our SDK
       run: |
-        mkdir -p ~/.buildozer
-        echo '{ "sdk": { "build_tools_version": "34.0.0", "api": 34, "minapi": 21 } }' > ~/.buildozer/global.json
-        cat ~/.buildozer/global.json
+        mkdir -p ~/.buildozer/android/platform
+        ln -s $ANDROID_SDK_ROOT ~/.buildozer/android/platform/android-sdk
+        ls -R ~/.buildozer/android/platform
 
     - name: Build APK
       run: |
         export ANDROIDSDK=$ANDROID_SDK_ROOT
-        export ANDROIDNDK=$ANDROID_SDK_ROOT/ndk-bundle
+        export ANDROIDNDK=$ANDROID_SDK_ROOT/ndk
         export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$PATH
         buildozer -v android debug
 
