@@ -26,7 +26,6 @@ fullscreen = 0
 # Минимальный и целевой API
 android.api = 34
 android.minapi = 21
-android.build_tools_version = 34.0.0
 
 # Разрешения
 android.permissions = INTERNET
@@ -45,3 +44,4 @@ build_dir = ./.buildozer
 
 # Автоматическая компиляция requirements
 warn_on_root = 1
+
