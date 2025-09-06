@@ -34,7 +34,8 @@ jobs:
         mv latest/cmdline-tools/* latest/
         export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$PATH
         yes | sdkmanager --licenses
-        yes | sdkmanager "platform-tools" "build-tools;34.0.0" "platforms;android-34"
+        yes | sdkmanager "platform-tools" "build-tools;36.1.0-rc1" "platforms;android-34"
+
 
     - name: Force Buildozer to use our SDK
       run: |
