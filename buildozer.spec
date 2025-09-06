@@ -9,3 +9,4 @@ orientation = portrait
 fullscreen = 0
 android.api = 33
 android.minapi = 21
+version = 1.0.0
