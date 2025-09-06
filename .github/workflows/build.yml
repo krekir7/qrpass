@@ -9,7 +9,7 @@ jobs:
 
     env:
       ANDROID_SDK_ROOT: ${{ github.workspace }}/android-sdk
-      PATH: ${{ github.workspace }}/android-sdk/cmdline-tools/latest/bin:${{ github.workspace }}/android-sdk/platform-tools:${{ env.PATH }}
+      PATH: ${{ github.workspace }}/android-sdk/cmdline-tools/latest/bin:${{ github.workspace }}/android-sdk/platform-tools:/usr/bin:/bin
 
     steps:
     - uses: actions/checkout@v2
